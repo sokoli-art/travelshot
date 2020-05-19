@@ -12,10 +12,10 @@ body{
 
 .container{
     height: 81.4vh;
-    width: 90%;
-    background-color: rgb(29, 13, 13);
+    width: 70%;
     margin: 100px auto;
     display: flex;
+    border-radius: 20px;
     
 }
 
@@ -25,64 +25,120 @@ body{
     /*background-size: 42.8em;
     background-size: 684.67px;*/
     background-size: cover;
-     
+    height: 81.4vh;
+    border-top-left-radius: 20px;  
+    border-bottom-left-radius :20px;
+    position: relative;
 }
 
 h1{
-    margin-left: 25px;
+    margin-left: 35px;
      color: white;
-     font-size: 45px;
-
+     font-size: 4em;
 }
 
 .capture{
-    margin-left: 25px;
+    margin-left: 35px;
     color: white;
-    font-size: 1.2em;
+    font-size: 2em;
+    line-height: 1em;
+    
 }
 
 .right{
     width: 100%;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    
+    /*margin-top: auto;
+    margin-bottom: auto;*/
+    border-top-right-radius: 20px;  
+    border-bottom-right-radius :20px;
+    background-color: rgb(37, 37, 37);
+    position: relative;
 }
 
 .logo-1 {
     height: 40px;
     margin: 18px 15px;
     width: 150px;
-    margin-bottom: 230px;
+    margin-bottom: 55px;
 }
 
 .logo2 {
-    height: 60px;
+    height: 65px;
     margin: 18px 15px;
     width: 250px;
+    /*position: relative;*/
+    position: absolute;
+    top: 130px;
+    left: 251px;
+    
 }
 
 .lefticons{
     height: 50px;
     color: white;
+    position: absolute;
+    top: 820px;
+    left: 320px;
+    font-size: 30px;
+    width: 150px;
+    
 }
 
 .righticons{
-    height: 40px;
     color: white;
+    position: absolute;
+    top: 215px;
+    left: 337px;
+    font-size: 30px;
 }
 
-input{
+.lefticons .fab {
+ margin: 5px;
+}
+
+input[type="email"],
+input[type="password"]{
     display: block;
     width: 600px;
-    height: 50px;
+    width: 80%;
+    height: 60px;
     margin: auto;
+    margin-bottom: 15px;
     background-color: black;
     border: none;
     padding-left: 20px;
     color: white;
     font-size: 1.2em;
-    
+    box-sizing: border-box; 
+    outline: none;
+}
+
+/*
+input[type="email"]:focus,
+input[type="password"]:focus{
+    border: 1px solid #869960;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.13);
+}
+*/
+
+.inputfield{
+    /*background-color: #eeccee;*/
+    padding: 15px;
+    padding-bottom: 0;
+    position: absolute;
+    top: 325px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*To hide input labels*/
+.hidden-label{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+
 }
 
 .btn{
@@ -94,23 +150,41 @@ input{
     color: white;
     border: none;
     border-radius: 25px;
+    border-radius: 30px/20px;
     text-transform: uppercase;
-
-
+    position: absolute;
+    top: 530px;
+    left: 211px;
 }
+
+/*
+.btn:hover,.btn:focus{
+    background-color: lawngreen;
+    color: black;
+    border: 3px solid brown ;
+}   */
 
 .forgot{
+    margin: 0;
+    padding: 0 5px;
     text-align: right;
-    margin-right: 175px;
+    /*margin-right: 65px;*/
     color: rgba(224, 217, 217, 0.767);
     font-size: 1.1em;
-
-    
+    position: absolute;
+    top: 480px;
+    left: 485px;
 }
 
+/*seems text-align does not work with position declaration*/
+
 .or {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     margin-bottom: 20px;
     color: rgba(224, 217, 217, 0.767);
     font-size: 1.1em;
+    position: absolute;
+    top: 275px;
+    left: 291px;
+    padding: 0 5px;
 }
