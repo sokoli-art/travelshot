@@ -85,21 +85,21 @@ h1{
     /*position: relative;*/
     position: absolute;
     top: 130px;
-    left: 200px;
+    left: 30%;
 }
 
 .righticons{
     color: white;
     position: absolute;
     top: 215px;
-    left: 300px;
+    left: 43%;
     font-size: 30px;
 }
 
 input[type="email"],
 input[type="password"]{
     display: block;
-    width: 600px;
+    width: 95%;
     /*width: 80%;*/
     height: 60px;
     margin: auto;
@@ -154,7 +154,8 @@ input[type="password"]:focus{
     text-transform: uppercase;
     position: absolute;
     top: 530px;
-    left: 170px;
+    left: 25%;
+    cursor: pointer;
 }
 
 /*
@@ -170,7 +171,7 @@ input[type="password"]:focus{
     text-align: right;
     /*margin-right: 65px;*/
     color: rgba(224, 217, 217, 0.767);
-    font-size: 1.1em;
+    font-size: 110%;
     position: absolute;
     top: 64%;
     left: 68.5%;
@@ -182,10 +183,10 @@ input[type="password"]:focus{
     /*margin-top: 50px;*/
     margin-bottom: 20px;
     color: rgba(224, 217, 217, 0.767);
-    font-size: 1.1em;
+    font-size: 110%;
     position: absolute;
     top: 275px;
-    left: 241px;
+    left: 36%;
     padding: 0 5px;
 }
 
@@ -430,7 +431,7 @@ input[type="password"]:focus{
 }
 
 /*media querry for Large screens*/
-@media (min-width: 769px) and (max-width: 1200px){
+@media (min-width: 769px) and (max-width: 1050px){
     body{
         padding: 0;
         margin: 0;
@@ -537,3 +538,32 @@ input[type="password"]:focus{
     }
 
 } 
+
+/*media querry for X-Large screens*/
+@media (min-width: 1051px){
+    input[type="email"],
+    input[type="password"] {
+    width: 93%;
+    }
+/*
+    .or {
+        left: 30%;
+    }
+
+    .righticons{
+        left: 40%;
+    }
+
+    .logo2{
+        left: 20%;
+    }
+
+    .btn{
+        left: 16%;
+    }
+
+    .forgot{
+        font-size: 1.1em;
+        left: 56%;
+        }*/
+}
