@@ -403,8 +403,8 @@ input[type="password"]:focus{
     color: rgba(224, 217, 217, 0.767);
     font-size: 1em;
     position: absolute;
-    top: 57%;
-    left: 32%;
+    top: 60%;
+    left: 10vw;
     }
 
     .or {
@@ -428,7 +428,7 @@ input[type="password"]:focus{
         border-radius: 5px;
         text-transform: uppercase;
         position: absolute;
-        top: 65%;
+        top: 68%;
         left: 24%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
     }
@@ -502,8 +502,8 @@ input[type="password"]:focus{
     color: rgba(224, 217, 217, 0.767);
     font-size: 1em;
     position: absolute;
-    top: 58%;
-    left: 21vw;
+    top: 63%;
+    left: 17vw;
     }
 
     .or {
@@ -527,7 +527,7 @@ input[type="password"]:focus{
         border-radius: 5px;
         text-transform: uppercase;
         position: absolute;
-        top: 66%;
+        top: 70%;
         left: 24%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
     }
@@ -561,12 +561,12 @@ input[type="password"]:focus{
     .logo2{
         height: 6.9%;
         width: 50%;
-        top: 16%;
+        top: 21%;
         left: 20%;
     }
 
     .righticons{
-        top: 26%;
+        top: 31%;
         left: 37%;
         font-size: 1.7em;
     }
@@ -574,7 +574,7 @@ input[type="password"]:focus{
     .or {
         margin-bottom: 20px;
         font-size: 1em;
-        top: 36%;
+        top: 41%;
         left: 10vw;
         padding: 0 5px;
     }
@@ -583,7 +583,7 @@ input[type="password"]:focus{
         margin: 0;
         font-size: 1em;
         padding: 0 5px;
-        top: 58%;
+        top: 56vh;
         left: 22vw;
         }
 
@@ -594,7 +594,7 @@ input[type="password"]:focus{
             font-size: 1em;
             border-radius: 5px;
             text-transform: uppercase;
-            top: 66%;
+            top: 63vh;
             left: 24%;
         }
 }
@@ -605,11 +605,34 @@ input[type="password"]:focus{
         left: 20vw;
         }
 
+        .forgot{
+            font-size: 1em;
+            top: 56vh;
+            left: 20vw;
+            }
+    
+            .btn{
+                font-size: 1em;
+                top: 63vh;
+                left: 24%;
+            }
+
 }
 
 @media (min-width: 1701px){
 
     .forgot{
         left: 22vw;
+        }
+
+    .forgot{
+        top: 56vh;
+        left: 22vw;
+        }
+
+        .btn{
+        font-size: 1em;
+        top: 63vh;
+        left: 24%;
         }
 }
